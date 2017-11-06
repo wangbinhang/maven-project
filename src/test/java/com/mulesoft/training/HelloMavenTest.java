@@ -9,7 +9,7 @@ public class HelloMavenTest extends FunctionalTestCase {
 
     @Test
     public void mavenFlowReturnsHelloMaven() throws Exception {
-        runFlowAndExpect("mavenProjectFlow", "Hello Maven");
+        runFlowAndExpect("mavenProjectFlow2", "Hello Maven");
     }
     
     @Override
